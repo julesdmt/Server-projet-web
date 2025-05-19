@@ -2,13 +2,29 @@ const express = require('express');
 const router = express.Router();
 const Logement = require('../models/Logement');
 
-// Récupérer tous les logements
+// Récupérer tous les logements avec gestion d'erreur améliorée
 router.get('/', async (req, res) => {
+    console.log('Début de la requête GET /api/logements');
+    
     try {
-        const logements = await Logement.find();
-        res.json(logements);
+        // Ajout d'un timeout explicite de 30 secondes
+        const logements = await Logement.find()
+            .maxTimeMS(30000) // Timeout de 30 secondes
+            .lean(); // Convertit les documents Mongoose en objets JavaScript simples
+            
+        console.log(`✅ ${logements.length} logements trouvés`);
+        res.json({
+            success: true,
+            count: logements.length,
+            data: logements
+        });
     } catch (err) {
-        res.status(500).json({ message: err.message });
+        console.error('❌ Erreur lors de la récupération des logements:', err);
+        res.status(500).json({
+            success: false,
+            error: 'Erreur lors de la récupération des logements',
+            details: process.env.NODE_ENV === 'development' ? err.message : undefined
+        });
     }
 });
 
