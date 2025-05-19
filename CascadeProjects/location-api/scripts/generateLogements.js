@@ -52,46 +52,72 @@ const equipements = [
 // Images par type de logement (images libres de droits d'Unsplash)
 const imagesParType = {
     appartement: [
-        'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1502672260266-37a1c9e93a0b?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1580587771521-78a6c1ac7116?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600585154340-b6167b1f1cf6?w=800&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1600585154340-63cb45d8ee3b?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600210491367-e8e4e87a808f?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600585154340-63cb45d8ee3b?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600210491367-e8e4e87a808f?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687644-c0b7f8d4f9d7?w=800&auto=format&fit=crop'
     ],
     maison: [
-        'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600047509807-ba8f99d2cd00?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1600585154340-63cb45d8ee3b?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop'
     ],
     studio: [
-        'https://images.unsplash.com/photo-1502672023488-70e25813eb80?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1484154216780-71f8a57cee88?w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1502672260266-37a1c9e93a0b?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop'
     ],
     loft: [
         'https://images.unsplash.com/photo-1503174971373-b1f69850b92e?w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1484154216780-71f8a57cee88?w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1600585154340-b6167b1f1cf6?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687644-c0b7f8d4f9d7?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop'
     ],
     duplex: [
         'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600584347500-5f5e8c1e5f5c?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&auto=format&fit=crop',
         'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop'
     ],
     chambre: [
         'https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1505693317120-2f29aef4b3f3?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1502672013492-9d1c3c2c4c3b?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1505693317120-2f29aef4b3f3?w=800&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1502672013492-9d1c3c2c4c3b?w=800&auto=format&fit=crop'
+        'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1484154216780-71f8a57cee88?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607687939-ce8a944c2b23?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=800&auto=format&fit=crop',
+        'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&auto=format&fit=crop'
     ]
 };
 
@@ -142,22 +168,13 @@ function genererLogement() {
     const nbEquipements = faker.number.int({ min: 3, max: 10 });
     const listeEquipements = faker.helpers.arrayElements(equipements, nbEquipements);
     
-    // Générer entre 3 et 5 images pertinentes selon le type de logement
-    const nbImages = faker.number.int({ min: 3, max: 5 });
+    // Utiliser une seule image pertinente selon le type de logement
     const images = [];
-    
-    // Sélectionner les images correspondant au type de logement
     const imagesDisponibles = imagesParType[type] || imagesParType.appartement;
     
-    // Mélanger les images disponibles pour plus de variété
-    const imagesMelangees = [...imagesDisponibles].sort(() => 0.5 - Math.random());
-    
-    // Sélectionner le nombre d'images demandé
-    for (let i = 0; i < Math.min(nbImages, imagesMelangees.length); i++) {
-        // Ajouter un paramètre de cache unique pour éviter la mise en cache du navigateur
-        const cacheBuster = Date.now() + i;
-        images.push(`${imagesMelangees[i]}&t=${cacheBuster}`);
-    }
+    // Sélectionner une image aléatoire parmi celles disponibles pour ce type de logement
+    const imageAleatoire = faker.helpers.arrayElement(imagesDisponibles);
+    images.push(imageAleatoire);
     
     // Obtenir les coordonnées de base pour la ville
     const [baseLon, baseLat] = villesCoords[ville];

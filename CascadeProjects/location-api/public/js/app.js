@@ -1,5 +1,5 @@
 // Configuration de l'API
-const API_URL = 'http://localhost:3001/api/logements';
+const API_URL = 'http://localhost:3002/api/logements';
 
 // Éléments du DOM
 const annoncesContainer = document.getElementById('annonces-container');
